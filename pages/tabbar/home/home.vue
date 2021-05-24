@@ -1,6 +1,6 @@
 <template>
 	<view>
-		我的
+		<button type="default" @click="openLogin">登录页</button>
 	</view>
 </template>
 
@@ -12,7 +12,11 @@
 			}
 		},
 		methods: {
-			
+			openLogin(){
+				uni.navigateTo({
+					url: '../../login/login',
+				});
+			}
 		}
 	}
 </script>

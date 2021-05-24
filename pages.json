@@ -2,19 +2,21 @@
 	"pages": [{
 		"path": "pages/tabbar/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"app-plus":{
+				"titleNView":false
+			}
 		}
 	}, {
-		"path": "pages/tabbar/home/home",
+		"path": "pages/tabbar/learn/learn",
 		"style": {
-			// "navigationBarTitleText": "",
+			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
 		}
 
 	}, {
-		"path": "pages/tabbar/learn/learn",
+		"path": "pages/tabbar/home/home",
 		"style": {
-			// "navigationBarTitleText": "",
+			"navigationBarTitleText": "",
 			"enablePullDownRefresh": false
 		}
 
@@ -29,14 +31,14 @@
 		}
 	},
 	"tabBar": {
-		"color":"#000000",
-		"selectedColor":"#000000",
-		"borderStyle":"black",
+		"color": "#BBBAC7",
+		"selectedColor": "#2C2C2C",
+		"borderStyle": "black",
 		"list": [{
-			"iconPath":"static/tabbar/index1.png",
-			"selectedIconPath":"static/tabbar/index1_selected.png",
-			"pagePath":"pages/tabbar/index/index",
-			"text":"首页"
+			"iconPath": "/static/tabbar/index1.png",
+			"pagePath": "pages/tabbar/index/index",
+			"selectedIconPath": "/static/tabbar/index1_selected.png",
+			"text": "首页"
 		}, {
 			"iconPath": "/static/tabbar/learn.png",
 			"pagePath": "pages/tabbar/learn/learn",
@@ -49,5 +51,4 @@
 			"text": "我的"
 		}]
 	}
-	
 }

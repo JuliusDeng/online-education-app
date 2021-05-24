@@ -1,6 +1,6 @@
 <template>
 	<view>
-				学习
+		学习
 	</view>
 </template>
 
