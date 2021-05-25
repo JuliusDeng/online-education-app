@@ -2,6 +2,7 @@
 	"pages": [{
 		"path": "pages/tabbar/index/index",
 		"style": {
+			"enablePullDownRefresh":true,
 			"app-plus":{
 				"titleNView":false
 			}
@@ -20,7 +21,20 @@
 			"enablePullDownRefresh": false
 		}
 
-	}],
+	}   
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uniapp在线教育",
